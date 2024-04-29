@@ -1,0 +1,86 @@
+
+body {
+  background-color: rgb(33, 33, 33);
+  color: rgb(255, 255, 255);
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.flechas {
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  }
+}
+
+.izquierda {
+  position: relative;
+  top: 200px; /* Mueve el elemento 20px hacia abajo */
+  left: 600px; /* Mueve el elemento 50px hacia la derecha */
+}
+
+.derecha{
+  position: relative;
+  top: -240px;
+  left: -600px;
+}
+
+/* Estilos para el slider */
+
+.slider-container {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+}
+
+.slider {
+  display: flex;
+}
+
+.slide {
+  width: 100%;
+  display: none;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.texto
+{
+width: 80%;
+margin: auto;
+text-align: justify;
+}
+
+.fondo
+{
+  background-color: rgb(33, 33, 33);
+  text-align: justify;
+}
+.centro{
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.fondo2
+{
+ background-color: rgb(33, 33, 33);
+ text-align: justify;
+}
